@@ -18,11 +18,23 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    packagingOptions {
+        exclude "META-INF/*.SF"
+        exclude "META-INF/*.DSA"
+        exclude "META-INF/*.RSA"
+        exclude "META-INF/NOTICE"
+        exclude "META-INF/LICENSE"
+        exclude "META-INF/MANIFEST.MF"
+    }
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
+    compile 'org.nanohttpd:nanohttpd:2.3.1'
+    compile "com.fasterxml.jackson.core:jackson-core:2.6.4"
+    compile "com.fasterxml.jackson.core:jackson-annotations:2.6.4"
+    compile "com.fasterxml.jackson.core:jackson-databind:2.6.4"
     compile 'com.android.support:appcompat-v7:23.1.1'
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:multidex:1.0.1'

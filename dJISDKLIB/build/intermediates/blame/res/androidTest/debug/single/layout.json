@@ -1,10 +1,10 @@
 [
     {
-        "merged": "D:\\Final_PipeApp\\PipeApp\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog_login.xml",
-        "source": "D:\\Final_PipeApp\\PipeApp\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog_login.xml"
+        "merged": "/home/ben/projects/idan/PipeApp/dJISDKLIB/build/intermediates/res/merged/androidTest/debug/layout/log_dialog_view.xml",
+        "source": "/home/ben/projects/idan/PipeApp/dJISDKLIB/build/intermediates/bundles/debug/res/layout/log_dialog_view.xml"
     },
     {
-        "merged": "D:\\Final_PipeApp\\PipeApp\\dJISDKLIB\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\log_dialog_view.xml",
-        "source": "D:\\Final_PipeApp\\PipeApp\\dJISDKLIB\\build\\intermediates\\bundles\\debug\\res\\layout\\log_dialog_view.xml"
+        "merged": "/home/ben/projects/idan/PipeApp/dJISDKLIB/build/intermediates/res/merged/androidTest/debug/layout/dialog_login.xml",
+        "source": "/home/ben/projects/idan/PipeApp/dJISDKLIB/build/intermediates/bundles/debug/res/layout/dialog_login.xml"
     }
 ]

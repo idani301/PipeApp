@@ -218,6 +218,8 @@ public class PipeApp extends Application {
             fatalError("Couldn't start the output thread. Error: " + e.getMessage());
         }
 
+        startService(new Intent(this, DjiDroneControllerService.class));
+
         /**
          * handles SDK Registration using the API_KEY
          */

@@ -50,6 +50,7 @@
 
         <service android:name="dji.sdk.sdkmanager.DJIGlobalService" />
         <service android:name="dji.internal.geofeature.flyforbid.FlyforbidUpdateService" />
+        <service android:name=".DjiDroneControllerService" />
 
         <!-- Required for receiving GEO system pushing. -->
         <service android:name="dji.sdk.sdkmanager.GeoSyncFileService" />
